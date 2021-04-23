@@ -1,32 +1,25 @@
+package Deliverable3;
+
 public abstract class Card {
 
-	private int cardSuit;
-	private int cardNumber;
+    private String cardSuit;
+    private int cardNumber;
 
-	public void getCardSuit() {
-		// TODO - implement Card.getCardSuit
-		throw new UnsupportedOperationException();
-	}
+    public String getCardSuit(String cardSuit) {
+        return cardSuit;
+    }
 
-	/**
-	 * 
-	 * @param cardSuit
-	 */
-	public void setCardSuit(int cardSuit) {
-		this.cardSuit = cardSuit;
-	}
+    public void setCardSuit(String cardSuit) {
+        this.cardSuit = cardSuit;
+    }
 
-	public void getCardNumber() {
-		// TODO - implement Card.getCardNumber
-		throw new UnsupportedOperationException();
-	}
+    public int getCardNumber(int cardNumber) {
+        return cardNumber;
+    }
 
-	/**
-	 * 
-	 * @param cardNumber
-	 */
-	public void setCardNumber(int cardNumber) {
-		this.cardNumber = cardNumber;
-	}
+
+    public void setCardNumber(int cardNumber) {
+        this.cardNumber = cardNumber;
+    }
 
 }
